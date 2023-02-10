@@ -1,0 +1,105 @@
+17:40:54.289 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Selected option : United States
+17:40:54.299 [main] INFO  com.qa.opencart.pages.RegistrationPage - Select an option From State dropdown by value Attribute
+17:40:54.589 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Selected option : Florida
+17:40:54.590 [main] INFO  com.qa.opencart.testcase.RegistrationTest - setting the password value is:lUaz@908
+17:40:54.590 [main] INFO  com.qa.opencart.pages.RegistrationPage - enetering the pwd value
+17:40:56.800 [main] INFO  com.qa.opencart.pages.RegistrationPage - enetering the confirm value
+17:40:58.993 [main] INFO  com.qa.opencart.testcase.RegistrationTest - select the subscribe option yes
+17:40:58.993 [main] INFO  com.qa.opencart.pages.RegistrationPage - enetering the subscribe value
+17:40:58.993 [main] INFO  com.qa.opencart.pages.RegistrationPage - select Yes radio buton
+17:41:01.124 [main] INFO  com.qa.opencart.testcase.RegistrationTest - check the Privacy policy checkbox
+17:41:01.124 [main] INFO  com.qa.opencart.pages.RegistrationPage - check Agree Checkbox
+17:41:01.154 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Element  is already selected:[[ChromeDriver: chrome on WINDOWS (50eb864d4efbd22f32ca9543df3c12e3)] -> css selector: input[name='agree']]
+17:41:05.341 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Element is checked::[[ChromeDriver: chrome on WINDOWS (50eb864d4efbd22f32ca9543df3c12e3)] -> css selector: input[name='agree']]
+17:41:05.342 [main] INFO  com.qa.opencart.testcase.RegistrationTest - Click on Continue button
+17:41:05.342 [main] INFO  com.qa.opencart.pages.RegistrationPage - click on Continue button
+17:41:08.039 [main] INFO  com.qa.opencart.testcase.RegistrationTest - verify the Account Creation success message and  header 
+17:41:12.221 [main] INFO  com.qa.opencart.testcase.RegistrationTest - click on Account Created Continue button
+17:41:12.221 [main] INFO  com.qa.opencart.pages.RegistrationPage - click on AccountCreatedContinue button
+17:41:14.856 [main] INFO  com.qa.opencart.testcase.RegistrationTest - validate the my Account Page title
+17:41:14.863 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: My Account
+17:41:14.863 [main] INFO  com.qa.opencart.testcase.RegistrationTest - click on logout link
+17:41:19.632 [main] INFO  com.qa.opencart.testcase.RegistrationTest - validate the logout Page title
+17:41:19.643 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Account Logout
+17:41:19.643 [main] INFO  com.qa.opencart.testcase.RegistrationTest - Click on Continue button in Logout page
+17:41:23.538 [main] INFO  com.qa.opencart.factory.WebDriverFactory - clear the cache/cookies 
+17:41:23.551 [main] INFO  com.qa.opencart.factory.WebDriverFactory - adding implicit wait 
+17:41:23.554 [main] INFO  com.qa.opencart.factory.WebDriverFactory - maximize the window
+17:41:23.701 [main] INFO  com.qa.opencart.factory.TestBase - create object for WebDriverWait class
+17:41:26.121 [main] INFO  com.qa.opencart.testcase.LoginPageTest - initialising the page class objects
+17:41:26.126 [main] INFO  com.qa.opencart.pages.HomePage - opening the myAccount menu
+17:41:28.275 [main] INFO  com.qa.opencart.pages.HomePage - clik on Login link
+17:41:30.747 [main] INFO  com.qa.opencart.testcase.LoginPageTest - Verify the Login page title
+17:41:30.759 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Account Login
+17:41:31.123 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Element is displayed::[[ChromeDriver: chrome on WINDOWS (b2b2216e2431ecdcfcfe5f9dca71b249)] -> xpath: //strong[contains(.,'Register Account')]]
+17:41:31.313 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Element is displayed::[[ChromeDriver: chrome on WINDOWS (b2b2216e2431ecdcfcfe5f9dca71b249)] -> css selector: div.well>h2]
+17:41:31.478 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Element is displayed::[[ChromeDriver: chrome on WINDOWS (b2b2216e2431ecdcfcfe5f9dca71b249)] -> css selector: a.btn.btn-primary]
+17:41:31.652 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Element is displayed::[[ChromeDriver: chrome on WINDOWS (b2b2216e2431ecdcfcfe5f9dca71b249)] -> xpath: //h2[contains(.,'Returning Customer')]]
+17:41:31.784 [main] INFO  com.qa.opencart.pages.LoginPage - click on forgot password
+17:41:35.100 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Navigate back
+17:41:35.286 [main] INFO  com.qa.opencart.pages.LoginPage - click on forgot password
+17:41:38.329 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Navigate back
+17:41:38.528 [main] INFO  com.qa.opencart.pages.LoginPage - Performing the login to the website
+17:41:43.024 [main] INFO  com.qa.opencart.pages.LoginPage - click on Login button
+17:41:45.647 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: My Account
+17:41:50.622 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Account Logout
+17:41:50.623 [main] INFO  com.qa.opencart.testcase.LoginPageTest - Click on Continue button in logout page
+17:41:53.129 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Your Store
+17:41:54.430 [main] INFO  com.qa.opencart.factory.WebDriverFactory - clear the cache/cookies 
+17:41:54.447 [main] INFO  com.qa.opencart.factory.WebDriverFactory - adding implicit wait 
+17:41:54.450 [main] INFO  com.qa.opencart.factory.WebDriverFactory - maximize the window
+17:41:54.618 [main] INFO  com.qa.opencart.factory.TestBase - create object for WebDriverWait class
+17:41:56.966 [main] INFO  com.qa.opencart.testcase.MyAccountPageTest - initialising the page class objects
+17:41:56.971 [main] INFO  com.qa.opencart.pages.HomePage - opening the myAccount menu
+17:41:59.104 [main] INFO  com.qa.opencart.pages.HomePage - clik on Login link
+17:42:01.562 [main] INFO  com.qa.opencart.pages.LoginPage - Performing the login to the website
+17:42:06.047 [main] INFO  com.qa.opencart.pages.LoginPage - click on Login button
+17:42:08.714 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: My Account
+17:42:11.998 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:MacBook
+17:42:14.761 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Search - MacBook
+17:42:14.761 [main] INFO  com.qa.opencart.testcase.MyAccountPageTest - Search results page title:Search - MacBook
+17:42:15.003 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:iMac
+17:42:17.720 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Search - iMac
+17:42:17.720 [main] INFO  com.qa.opencart.testcase.MyAccountPageTest - Search results page title:Search - iMac
+17:42:17.909 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Samsung
+17:42:20.693 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Search - Samsung
+17:42:20.693 [main] INFO  com.qa.opencart.testcase.MyAccountPageTest - Search results page title:Search - Samsung
+17:42:25.655 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Account Logout
+17:42:25.655 [main] INFO  com.qa.opencart.testcase.MyAccountPageTest - Click on Continue button in logout page
+17:42:28.178 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Your Store
+17:42:29.494 [main] INFO  com.qa.opencart.factory.WebDriverFactory - clear the cache/cookies 
+17:42:29.506 [main] INFO  com.qa.opencart.factory.WebDriverFactory - adding implicit wait 
+17:42:29.508 [main] INFO  com.qa.opencart.factory.WebDriverFactory - maximize the window
+17:42:29.675 [main] INFO  com.qa.opencart.factory.TestBase - create object for WebDriverWait class
+17:42:32.312 [main] INFO  com.qa.opencart.testcase.ProductDetailsPageTest - initialising the page class objects
+17:42:32.320 [main] INFO  com.qa.opencart.pages.HomePage - opening the myAccount menu
+17:42:34.484 [main] INFO  com.qa.opencart.pages.HomePage - clik on Login link
+17:42:36.905 [main] INFO  com.qa.opencart.pages.LoginPage - Performing the login to the website
+17:42:41.366 [main] INFO  com.qa.opencart.pages.LoginPage - click on Login button
+17:42:44.010 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Macbook
+17:42:46.745 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:MacBook Pro
+17:42:48.691 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Macbook
+17:42:51.317 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:MacBook Air
+17:42:52.332 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:iMac
+17:42:55.068 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:iMac
+17:42:56.058 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Samsung
+17:42:58.813 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:Samsung SyncMaster 941BW
+17:42:59.725 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Apple
+17:43:02.478 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:Apple Cinema 30"
+17:43:03.513 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Macbook
+17:43:06.133 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:MacBook Pro
+17:43:07.009 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Macbook
+17:43:09.635 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:MacBook Air
+17:43:10.437 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:iMac
+17:43:13.039 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:iMac
+17:43:13.879 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Samsung
+17:43:16.490 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:Samsung SyncMaster 941BW
+17:43:17.306 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:Apple
+17:43:19.900 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:Apple Cinema 30"
+17:43:20.775 [main] INFO  com.qa.opencart.pages.MyAccountPage - searching for the prodct:MacBook
+17:43:23.566 [main] INFO  com.qa.opencart.pages.ResultsPage - product name is:MacBook Pro
+17:43:24.195 [main] INFO  com.qa.opencart.pages.ProductDetailsPage - Product metadata count -->4
+17:43:24.263 [main] INFO  com.qa.opencart.pages.ProductDetailsPage - Product price count -->2
+17:43:29.302 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Account Logout
+17:43:29.302 [main] INFO  com.qa.opencart.testcase.ProductDetailsPageTest - Click on Continue button in logout page
+17:43:31.834 [main] INFO  com.qa.opencart.utils.WebDriverUtils - Title of the page is :: Your Store
