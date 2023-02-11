@@ -235,7 +235,7 @@ public class WebDriverUtils{
 
 		}
 	 /**
-	  * this method fetches the text of the element
+	  * this method fetches the given element text and stores in string variable
 	  * @param element
 	  * @return
 	  * @throws InterruptedException
