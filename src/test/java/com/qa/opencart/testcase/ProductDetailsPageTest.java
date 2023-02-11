@@ -66,6 +66,7 @@ public class ProductDetailsPageTest extends TestBase {
 	public void productHeaderTest(String key,String productName) throws InterruptedException {
 		resultPg=myaccountPg.doProductSearch(key);
 		productDetailPg=resultPg.selectProduct(productName);
+		log.info("getting product header name in opencart website");
 		String productHeaderName=productDetailPg.getProductName();
 		Assert.assertEquals(productHeaderName, productName);
 	}
@@ -88,6 +89,7 @@ public class ProductDetailsPageTest extends TestBase {
 	public void productImagesTest(String key,String productName,int imgCount) throws InterruptedException {
 		resultPg=myaccountPg.doProductSearch(key);
 		productDetailPg=resultPg.selectProduct(productName);
+		log.info("getting product image count for particular searched product in opencart website");
 		int actProductImageCount=productDetailPg.getProductImageCount();
 		Assert.assertEquals(actProductImageCount, imgCount);
 	}
