@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  OpencartTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>OpencartTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 10 18:09:03 MST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>337 seconds (337420 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.accountPageSearchExistTest()'><b>accountPageSearchExistTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: my account page search editbox exists Test</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.accountPageUrlTest()'><b>accountPageUrlTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: my account page url verification</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.RegistrationTest.registrationDataDrivenTest()'><b>registrationDataDrivenTest</b><br>Test class: com.qa.opencart.testcase.RegistrationTest<br>Parameters: sreedevi, Doolla, 9980193573, sridevi@123, no</td>
+<td></td>
+<td>42</td>
+<td>com.qa.opencart.testcase.RegistrationTest@f9b5552</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.verifyLoginPageTitleTest()'><b>verifyLoginPageTitleTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest<br>Test method: Asserting login page title</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.HomePageTest.verifyOpenCartLogoTest()'><b>verifyOpenCartLogoTest</b><br>Test class: com.qa.opencart.testcase.HomePageTest<br>Test method: TC_01_Verifying the opencartLogo</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.HomePageTest@6bcbf05b</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.HomePageTest.navigateToLoginPageTest()'><b>navigateToLoginPageTest</b><br>Test class: com.qa.opencart.testcase.HomePageTest<br>Test method: TC_04_navigate to Login page</td>
+<td></td>
+<td>5</td>
+<td>com.qa.opencart.testcase.HomePageTest@6bcbf05b</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.isNewCustomerContinueBtnAvailableExistTest()'><b>isNewCustomerContinueBtnAvailableExistTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest<br>Test method: isNewCustomerContinueBtnAvailable</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.isReturningCustomerHeaderExistTest()'><b>isReturningCustomerHeaderExistTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest<br>Test method: isReturningCustomerHeaderAvailable</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.RegistrationTest.registrationDataDrivenTest()'><b>registrationDataDrivenTest</b><br>Test class: com.qa.opencart.testcase.RegistrationTest<br>Parameters: Vandana, senthil, 3146069849, vandana@123, yes</td>
+<td></td>
+<td>42</td>
+<td>com.qa.opencart.testcase.RegistrationTest@f9b5552</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.myAccountMenuOptionTest()'><b>myAccountMenuOptionTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: my account menu option list verification</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest<br>Test method: login to the open cart page</td>
+<td></td>
+<td>7</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.HomePageTest.verifyOpenCartTitleTest()'><b>verifyOpenCartTitleTest</b><br>Test class: com.qa.opencart.testcase.HomePageTest<br>Test method: TC_02_Verifying the opencart Title</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.HomePageTest@6bcbf05b</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.goToForgotPasswordTest()'><b>goToForgotPasswordTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.isRegisterAccntTextExistTest()'><b>isRegisterAccntTextExistTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest<br>Test method: isNewCustomerHeaderAvailable</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.accountPageTitleTest()'><b>accountPageTitleTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: my account page title verification</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.productSearchTest()'><b>productSearchTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: perform product search from my account page<br>Parameters: iMac</td>
+<td></td>
+<td>2</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.productSearchTest()'><b>productSearchTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: perform product search from my account page<br>Parameters: Samsung</td>
+<td></td>
+<td>3</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.loginPageUrlTest()'><b>loginPageUrlTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest<br>Test method: Asserting login page Url</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.myAccountHeaderTest()'><b>myAccountHeaderTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: my account headers list verification</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.isNewCustomerHeaderExistTest()'><b>isNewCustomerHeaderExistTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest<br>Test method: isNewCustomerHeaderAvailable</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.LoginPageTest.goToRegistrationPageTest()'><b>goToRegistrationPageTest</b><br>Test class: com.qa.opencart.testcase.LoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.opencart.testcase.LoginPageTest@6872f9c8</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.productSearchTest()'><b>productSearchTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: perform product search from my account page<br>Parameters: MacBook</td>
+<td></td>
+<td>2</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.MyAccountPageTest.accountPageLogoutExistTest()'><b>accountPageLogoutExistTest</b><br>Test class: com.qa.opencart.testcase.MyAccountPageTest<br>Test method: my account page logout link exists Test</td>
+<td></td>
+<td>2</td>
+<td>com.qa.opencart.testcase.MyAccountPageTest@bdecc21</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.RegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: com.qa.opencart.testcase.RegistrationTest</td>
+<td></td>
+<td>42</td>
+<td>com.qa.opencart.testcase.RegistrationTest@f9b5552</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.HomePageTest.navigateRegistrationPageTest()'><b>navigateRegistrationPageTest</b><br>Test class: com.qa.opencart.testcase.HomePageTest<br>Test method: TC_03_navigate to registration page</td>
+<td></td>
+<td>5</td>
+<td>com.qa.opencart.testcase.HomePageTest@6bcbf05b</td></tr>
+<tr>
+<td title='com.qa.opencart.testcase.RegistrationTest.registrationDataDrivenTest()'><b>registrationDataDrivenTest</b><br>Test class: com.qa.opencart.testcase.RegistrationTest<br>Parameters: harshini, ch, 6303236395, harshini@123, yes</td>
+<td></td>
+<td>42</td>
+<td>com.qa.opencart.testcase.RegistrationTest@f9b5552</td></tr>
+</table><p>
+</body>
+</html>
