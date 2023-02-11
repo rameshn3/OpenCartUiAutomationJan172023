@@ -226,6 +226,12 @@ public class WebDriverUtils{
 			element.sendKeys(text);
 
 		}
+	 /**
+	  * this method fetches the given element text and stores in string variable
+	  * @param element
+	  * @return
+	  * @throws InterruptedException
+	  */
 	public String getText(WebElement element) throws InterruptedException {
 		log.debug("wait for the visibility of an element");
 		wait.until(ExpectedConditions.visibilityOf(element));
