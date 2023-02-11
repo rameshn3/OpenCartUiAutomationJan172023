@@ -164,16 +164,14 @@ public class WebDriverUtils{
 
     
     public void flashElement(WebElement element) throws InterruptedException {
-        
+      
 			jsUtil.flash(element);
 		
-	
     }
 
     /***
      *
-     * @param locator - locator strategy, id=>example, name=>example, css=>#example,
-     *      *                tag=>example, xpath=>//example, link=>example
+     * @param locator - locator strategy, 
      * @param info - Information about element, usually text on element
      * @return
      */
@@ -208,7 +206,11 @@ public class WebDriverUtils{
 		}
 
 	}
-
+/**
+ * This method clicks on given element and flashes also
+ * @param element
+ * @throws InterruptedException
+ */
 	public void click(WebElement element) throws InterruptedException {
 		log.debug("wait for the element to be clickable or not");
 		wait.until(ExpectedConditions.elementToBeClickable(element));
@@ -225,6 +227,12 @@ public class WebDriverUtils{
 		flashElement(element);
 		return element.isDisplayed();
 	}
+	/**
+	 * This method type the given value in the editbox and also flashes
+	 * @param element
+	 * @param text
+	 * @throws InterruptedException
+	 */
 	 public void sendData(WebElement element, String text) throws InterruptedException {
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 			flashElement(element);
