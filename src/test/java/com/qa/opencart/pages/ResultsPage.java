@@ -37,6 +37,7 @@ public class ResultsPage extends WebDriverUtils{
 	
 	public ProductDetailsPage selectProduct(String productName) {
 		log.info("product name is:"+productName);
+		//xpath=//a[text()='"+linkname+"']
 		driver.findElement(By.linkText(productName)).click();
 		return new ProductDetailsPage(driver);
 	}
