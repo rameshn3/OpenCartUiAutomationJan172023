@@ -38,6 +38,7 @@ public class ProductDetailsPageTest extends TestBase {
 		resultPg=new ResultsPage(driver);
 		 productDetailPg=new ProductDetailsPage(driver);
 		homePg.goToLoginPage();
+		log.info("first logging into the opencart website");
 		loginPg.doLogin(rb.getString("username"), rb.getString("pwd"));
 		
 	}
