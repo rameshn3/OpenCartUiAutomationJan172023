@@ -36,7 +36,7 @@ public class MyAccountPage extends WebDriverUtils{
 	private WebElement continueBtn;
 	@FindBy(linkText="Logout")
 	private WebElement logoutLink;
-	@FindBy(xpath="//span[contains(.,'My Account')]")
+	@FindBy(xpath="//div[@id='top-links']/ul/li[2]/a")
 	private WebElement myAccountMenu;
 	@FindBy(name="search")
 	private WebElement searchEditbox;
