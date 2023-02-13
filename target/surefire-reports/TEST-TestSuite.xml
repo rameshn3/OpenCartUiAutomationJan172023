@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="354.48" tests="37" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\eclipse-workspace\OpenCartUiAutomationJan172023"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\eclipse-workspace\OpenCartUiAutomationJan172023"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\rames\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10294065841725652050.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/rames/Downloads/eclipse-java-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/rames/Downloads/eclipse-java-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\rames\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\rames\AppData\Local\Programs\Python\Python311\;C:\Users\rames\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\rames\AppData\Roaming\npm;C:\Users\rames\Downloads\eclipse-java-2022-06-R-win32-x86_64\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\rames"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="rames"/>
+    <property name="java.class.path" value="C:\Users\rames\Downloads\eclipse-java-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\eclipse-workspace\OpenCartUiAutomationJan172023\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyOpenCartLogoTest" classname="com.qa.opencart.testcase.HomePageTest" time="0.374"/>
+  <testcase name="verifyOpenCartTitleTest" classname="com.qa.opencart.testcase.HomePageTest" time="0.189"/>
+  <testcase name="navigateRegistrationPageTest" classname="com.qa.opencart.testcase.HomePageTest" time="5.267"/>
+  <testcase name="navigateToLoginPageTest" classname="com.qa.opencart.testcase.HomePageTest" time="4.942"/>
+  <testcase name="registrationDataDrivenTest" classname="com.qa.opencart.testcase.RegistrationTest" time="39.761"/>
+  <testcase name="registrationDataDrivenTest" classname="com.qa.opencart.testcase.RegistrationTest" time="39.248"/>
+  <testcase name="registrationDataDrivenTest" classname="com.qa.opencart.testcase.RegistrationTest" time="39.208"/>
+  <testcase name="registrationTest" classname="com.qa.opencart.testcase.RegistrationTest" time="39.109"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.opencart.testcase.LoginPageTest" time="0.068"/>
+  <testcase name="loginPageUrlTest" classname="com.qa.opencart.testcase.LoginPageTest" time="0.068"/>
+  <testcase name="isRegisterAccntTextExistTest" classname="com.qa.opencart.testcase.LoginPageTest" time="0.088"/>
+  <testcase name="isNewCustomerHeaderExistTest" classname="com.qa.opencart.testcase.LoginPageTest" time="0.083"/>
+  <testcase name="isNewCustomerContinueBtnAvailableExistTest" classname="com.qa.opencart.testcase.LoginPageTest" time="0.09"/>
+  <testcase name="isReturningCustomerHeaderExistTest" classname="com.qa.opencart.testcase.LoginPageTest" time="0.11"/>
+  <testcase name="goToForgotPasswordTest" classname="com.qa.opencart.testcase.LoginPageTest" time="2.774"/>
+  <testcase name="goToRegistrationPageTest" classname="com.qa.opencart.testcase.LoginPageTest" time="3.051"/>
+  <testcase name="loginTest" classname="com.qa.opencart.testcase.LoginPageTest" time="6.874"/>
+  <testcase name="accountPageTitleTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="0.046"/>
+  <testcase name="accountPageUrlTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="0.05"/>
+  <testcase name="accountPageSearchExistTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="0.084"/>
+  <testcase name="accountPageLogoutExistTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="2.185"/>
+  <testcase name="myAccountMenuOptionTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="0.111"/>
+  <testcase name="myAccountHeaderTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="0.094"/>
+  <testcase name="productSearchTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="2.75"/>
+  <testcase name="productSearchTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="2.682"/>
+  <testcase name="productSearchTest" classname="com.qa.opencart.testcase.MyAccountPageTest" time="2.778"/>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.947"/>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.738"/>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.454"/>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.917"/>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.513"/>
+  <testcase name="productImagesTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.325"/>
+  <testcase name="productImagesTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.319"/>
+  <testcase name="productImagesTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.251"/>
+  <testcase name="productImagesTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.198"/>
+  <testcase name="productImagesTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.38"/>
+  <testcase name="productMetaDataTest" classname="com.qa.opencart.testcase.ProductDetailsPageTest" time="3.279"/>
+</testsuite>

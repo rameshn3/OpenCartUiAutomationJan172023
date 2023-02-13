@@ -6,7 +6,7 @@
       <listener class-name="com.qa.opencart.listeners.TestAllureListener"></listener>
   </listeners>
   <test thread-count="5" name="OpencartTest" preserve-order="true">
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="browser" value="headless"></parameter>
     <classes>
       <class name="com.qa.opencart.testcase.HomePageTest"/>
       <class name="com.qa.opencart.testcase.RegistrationTest"/>
