@@ -264,7 +264,7 @@ public class WebDriverFactory {
 		ChromeOptions coptions = new ChromeOptions();
 		if (Boolean.parseBoolean(readPropertyValue("headless"))) {
 			System.out.println(".....Running the test in Headless mode.......");
-			coptions.setHeadless(true);
+			coptions.addArguments("--headless=new");
 		}
 		if (Boolean.parseBoolean(readPropertyValue("incognito"))) {
 			System.out.println(".....Running the test in Incognito mode.......");
@@ -277,7 +277,7 @@ public class WebDriverFactory {
 		FirefoxOptions ffoptions = new FirefoxOptions();
 		if (Boolean.parseBoolean(readPropertyValue("headless"))) {
 			System.out.println(".....Running the test in Headless mode.......");
-			ffoptions.setHeadless(true);
+			ffoptions.addArguments("--headless=new");
 		}
 		if (Boolean.parseBoolean(readPropertyValue("incognito"))) {
 			System.out.println(".....Running the test in Incognito mode.......");
